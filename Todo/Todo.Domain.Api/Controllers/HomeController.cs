@@ -33,7 +33,7 @@ namespace Todo.Domain.Api.Controllers
             
 
             str = Configuration.GetConnectionString("connectionString");
-
+            Test = repository.GetTest();
 
             ViewBag.Latencia = handler.Watch(repository).ElapsedMilliseconds;
             ViewBag.Server = handler.Handle(str).Server;
