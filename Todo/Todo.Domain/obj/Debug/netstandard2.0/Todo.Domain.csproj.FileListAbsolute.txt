@@ -1,0 +1,17 @@
+C:\Users\yaquissak\Desktop\curso\Todo\todo.domain\bin\Debug\netstandard2.0\Todo.Domain.deps.json
+C:\Users\yaquissak\Desktop\curso\Todo\todo.domain\bin\Debug\netstandard2.0\Todo.Domain.dll
+C:\Users\yaquissak\Desktop\curso\Todo\todo.domain\bin\Debug\netstandard2.0\Todo.Domain.pdb
+C:\Users\yaquissak\Desktop\curso\Todo\todo.domain\obj\Debug\netstandard2.0\Todo.Domain.AssemblyInfoInputs.cache
+C:\Users\yaquissak\Desktop\curso\Todo\todo.domain\obj\Debug\netstandard2.0\Todo.Domain.AssemblyInfo.cs
+C:\Users\yaquissak\Desktop\curso\Todo\todo.domain\obj\Debug\netstandard2.0\Todo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\yaquissak\Desktop\curso\Todo\todo.domain\obj\Debug\netstandard2.0\Todo.Domain.dll
+C:\Users\yaquissak\Desktop\curso\Todo\todo.domain\obj\Debug\netstandard2.0\Todo.Domain.pdb
+D:\curso\Todo\todo.domain\bin\Debug\netstandard2.0\Todo.Domain.deps.json
+D:\curso\Todo\todo.domain\bin\Debug\netstandard2.0\Todo.Domain.dll
+D:\curso\Todo\todo.domain\bin\Debug\netstandard2.0\Todo.Domain.pdb
+D:\curso\Todo\todo.domain\obj\Debug\netstandard2.0\Todo.Domain.csprojAssemblyReference.cache
+D:\curso\Todo\todo.domain\obj\Debug\netstandard2.0\Todo.Domain.AssemblyInfoInputs.cache
+D:\curso\Todo\todo.domain\obj\Debug\netstandard2.0\Todo.Domain.AssemblyInfo.cs
+D:\curso\Todo\todo.domain\obj\Debug\netstandard2.0\Todo.Domain.csproj.CoreCompileInputs.cache
+D:\curso\Todo\todo.domain\obj\Debug\netstandard2.0\Todo.Domain.dll
+D:\curso\Todo\todo.domain\obj\Debug\netstandard2.0\Todo.Domain.pdb

@@ -1,0 +1,26 @@
+
+<form [formGroup]="form">
+  <h1>Novo Titulo</h1>
+  <br>
+  <textarea cols="30" rows="2" placeholder="Novo Titulo" formControlName="title"></textarea>
+  <small class="error" *ngIf="form.controls.title.invalid">
+    <strong>Titulo inválido</strong>
+  </small>
+  <br>
+  <h1>Nova Descrição</h1> 
+  <textarea cols="30" rows="2" placeholder="Nova Descrição" formControlName="desc"></textarea>
+  <small class="error" *ngIf="form.controls.desc.invalid">
+    <strong>Descrição inválida</strong>
+  </small>
+  <br>
+  <br>
+  <p class="text-right">
+    <app-button (click)="submit()" [disabled]="form.invalid">
+      <i class="fa fa-save"></i>
+      Atualizar
+    </app-button>
+  </p>
+</form>
+
+
+

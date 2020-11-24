@@ -1,0 +1,12 @@
+
+<h1>Informações do Todo</h1>
+
+<ul class="todos" *ngIf="todo">
+      <a [ngClass]="{ 'done' : todo.done}">
+        {{ todo.title }} <br>
+        <small>Criado em {{todo.created | date: 'dd/MM/yy'}} com prazo até {{ todo.date | date: 'dd/MM/yy' }}</small><br>
+        {{todo.desc}}
+      </a>
+</ul>
+<a class="edit-item" [routerLink]="['/update', id]" routerLinkActive="selected"><i class= "fa fa-align-justify"></i></a>
+  

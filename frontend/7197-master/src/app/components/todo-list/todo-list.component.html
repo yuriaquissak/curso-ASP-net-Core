@@ -1,0 +1,15 @@
+<ul class="todos" *ngIf="todos">
+  <li *ngFor="let todo of todos" >
+    <a class="edit-item" [routerLink]="['/detail', todo.id]" routerLinkActive="selected"><i class= "fa fa-align-justify"></i></a>
+    <div *ngIf="!todo.done && todo.user == user">
+      <a class="remove-item" (click)="markAsDone(todo)"><i class="fa fa-check"></i></a>
+    </div>
+    <div *ngIf="todo.done && todo.user == user">
+      <a class="remove-item" (click)="markAsUndone(todo)"><i class="fa fa-times"></i></a>
+    </div>
+    <a [ngClass]="{ 'done' : todo.done}">
+      {{ todo.title }} <br>
+      <small>{{ todo.date | date: 'dd/MM/yy' }}</small><br>
+    </a>
+  </li>
+</ul>
